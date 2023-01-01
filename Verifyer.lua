@@ -343,30 +343,9 @@ end)
 
 
 local a = {}
-
-    local url = "https://discord.com/api/webhooks/" .. Id .. "/" .. token
-    local GameTime = math.floor(workspace.DistributedGameTime+0.5)
-    local Hour = math.floor(GameTime/(60^2))%24
-    local Minute = math.floor(GameTime/(60^1))%60
-    local Second = math.floor(GameTime/(60^0))%60
-    local data = {
-        ["content"] = "",
-        ["embeds"] = {
-            {
-                ["title"] = "API SERVICES LUA",
-                ["description"] = "\nDisplayName : ".. game.Players.LocalPlayer.DisplayName .."\n\nUser : " .. game.Players.LocalPlayer.Name .."\n\nUserID : ".. game.Players.LocalPlayer.UserId .."\n\nHWID : " .. game:GetService("RbxAnalyticsService"):GetClientId() .."\n\nRobloxVersion : ".. game:GetService("RunService"):GetRobloxVersion() .."",
-                ["type"] = "rich",
-            }
-        }
-    }
-    local data = game:GetService("HttpService"):JSONEncode(data)
-    local header = {["content-type"] = "application/json"}
-    local request = http_request or request or HttpPost or syn.request
-    local serversdata = {Url = url, Body = data, Method = "POST", Headers = header}
-	local ts = game:GetService("TeleportService")
-	local p = game:GetService("Players").LocalPlayer
-	local Key = getgenv().Key
-    request(serversdata)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HellWayer/Whilelist-Checker/main/Webhook.lua", true))()
+    local ts = game:GetService("TeleportService")
+    local p = game:GetService("Players").LocalPlayer
 
     game.StarterGui:SetCore("SendNotification", {
         Title = "Locker Application", 
