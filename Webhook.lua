@@ -9,6 +9,8 @@
 
 ]]
 
+task.wait()
+
 local url = "https://discord.com/api/webhooks/" .. Id .. "/" .. token
 local data = {
     ["content"] = "",
@@ -30,3 +32,5 @@ local serversdata = {
     Headers = header
 }
 request(serversdata)
+
+task.wait()
