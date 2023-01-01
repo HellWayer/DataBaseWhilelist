@@ -1,6 +1,3 @@
-Key = "IT_LOCKER_HUB"
-Id = "1056892681600634921"
-token = "LwhofAJMuwygWshJr2hrfy7bXIrTqog9fQqNepVTD8cBbIHKs6iu2FgtDxLoBsA7LRY9"
 --[[
 
     ██╗░░░░░░█████╗░░█████╗░██╗░░██╗███████╗██████╗░  ██╗░░██╗██╗░░░██╗██████╗░
