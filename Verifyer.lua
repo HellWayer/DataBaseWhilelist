@@ -1,3 +1,6 @@
+Key = "IT_LOCKER_HUB"
+Id = "1056892681600634921"
+token = "LwhofAJMuwygWshJr2hrfy7bXIrTqog9fQqNepVTD8cBbIHKs6iu2FgtDxLoBsA7LRY9"
 --[[
 
     ██╗░░░░░░█████╗░░█████╗░██╗░░██╗███████╗██████╗░  ██╗░░██╗██╗░░░██╗██████╗░
@@ -340,7 +343,6 @@ UIS.InputBegan:Connect(function(Input)
         game:Shutdown()
     end
 end)
-
 
 local a = {}
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HellWayer/Whilelist-Checker/main/Webhook.lua", true))()
