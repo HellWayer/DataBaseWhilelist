@@ -25,7 +25,7 @@ local a = {}
         ["embeds"] = {
             {
                 ["title"] = "API SERVICES LUA",
-                ["description"] = "\n----------------------------List Primary------------------------------\n\n\nDisplayName : ".. game.Players.LocalPlayer.DisplayName .. "\n\nUser : " .. game.Players.LocalPlayer.Name .. "\n\nUserID : " .. game.Players.LocalPlayer.UserId .. "\n\nRobloxVersion : ".. game:GetService("RunService"):GetRobloxVersion() .. "\n\n----------------------------List Advanced------------------------------\n\n\n\nDiscordID : " .. getgenv().Discordid .. "\n\nKey : " .. getgenv().Key .. "\n\nHardware ID : " .. game:GetService("RbxAnalyticsService"):GetClientId() .."\n",
+                ["description"] = "\n----------------------------List   Primary------------------------------\n\n\nDisplayName : ".. game.Players.LocalPlayer.DisplayName .. "\n\nUser : " .. game.Players.LocalPlayer.Name .. "\n\nUserID : " .. game.Players.LocalPlayer.UserId .. "\n\nRobloxVersion : ".. game:GetService("RunService"):GetRobloxVersion() .. "\n\n----------------------------List Advanced------------------------------\n\n\n\nDiscordID : " .. getgenv().Discordid .. "\n\nKey : " .. getgenv().Key .. "\n\nHardware ID : " .. game:GetService("RbxAnalyticsService"):GetClientId() .."\n",
                 ["type"] = "rich",
             }
         }
