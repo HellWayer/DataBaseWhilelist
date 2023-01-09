@@ -27,7 +27,7 @@ local a = {}
         ["embeds"] = {
             {
                 ["title"] = "API SERVICES LUA",
-                ["description"] = des,
+                ["description"] = tostring(des),
                 ["type"] = "rich",
             }
         }
