@@ -16,7 +16,9 @@ end
 if getgenv().Key == "" or getgenv().Key == nil then
     getgenv().Key = "-" 
 end
-
+if des == "" or des == nil then
+    des = "-" 
+end
 local a = {}
     --loadstring(game:HttpGet("https://raw.githubusercontent.com/HellWayer/Whilelist-Checker/main/Webhook.lua", true))()
     local url = "https://discord.com/api/webhooks/" .. Id .. "/" .. token
@@ -25,7 +27,7 @@ local a = {}
         ["embeds"] = {
             {
                 ["title"] = "API SERVICES LUA",
-                ["description"] = "\n----------------------------List   Primary------------------------------\n\n\nDisplayName : ".. game.Players.LocalPlayer.DisplayName .. "\n\nUser : " .. game.Players.LocalPlayer.Name .. "\n\nUserID : " .. game.Players.LocalPlayer.UserId .. "\n\nRobloxVersion : ".. game:GetService("RunService"):GetRobloxVersion() .. "\n\n----------------------------List Advanced------------------------------\n\n\n\nDiscordID : " .. getgenv().Discordid .. "\n\nKey : " .. getgenv().Key .. "\n\nHardware ID : " .. game:GetService("RbxAnalyticsService"):GetClientId() .."\n",
+                ["description"] = des,
                 ["type"] = "rich",
             }
         }
