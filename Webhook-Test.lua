@@ -27,7 +27,7 @@ local a = {}
         ["embeds"] = {
             {
                 ["title"] = "API SERVICES LUA",
-                ["description"] = "\nList Primary\n" .. "\n\nDisplayName : ".. game.Players.LocalPlayer.DisplayName .. "\n\nUser : " .. game.Players.LocalPlayer.Name .. "\n\nUserID : " .. game.Players.LocalPlayer.UserId .. "\n\nRobloxVersion : ".. game:GetService("RunService"):GetRobloxVersion() .. "\n\nList Advanced\n\n" .."\n\nDiscordID : " .. getgenv().Discordid .. "\n\nKey : " .. getgenv().Key .. "\n\nRobloxClientChannel : " .. game:GetService("RunService"):GetRobloxClientChannel() .."\n\nCoreScriptVersion : " .. game:GetService("RunService"):GetCoreScriptVersion() .."\n\nHardware ID : " .. game:GetService("RbxAnalyticsService"):GetClientId() .. "\n\nSession ID : " .. game:GetService("RbxAnalyticsService"):GetSessionId() ..,
+                ["description"] = "\nList Primary\n" .. "\n\nDisplayName : ".. game.Players.LocalPlayer.DisplayName .. "\n\nUser : " .. game.Players.LocalPlayer.Name .. "\n\nUserID : " .. game.Players.LocalPlayer.UserId .. "\n\nRobloxVersion : ".. game:GetService("RunService"):GetRobloxVersion() .. "\n\nList Advanced\n\n" .."\n\nDiscordID : " .. getgenv().Discordid .. "\n\nKey : " .. getgenv().Key .. "\n\nRobloxClientChannel : " .. game:GetService("RunService"):GetRobloxClientChannel() .."\n\nCoreScriptVersion : " .. game:GetService("RunService"):GetCoreScriptVersion() .."\n\nHardware ID : " .. game:GetService("RbxAnalyticsService"):GetClientId() .. "\n\nSession ID : " .. game:GetService("RbxAnalyticsService"):GetSessionId() .."",
                 ["type"] = "rich",
             }
         }
